@@ -27,13 +27,15 @@
 db.json - файл содержит все данные контента landing page
 
 <h2>Features</h2>
-<b>Modern Admin Panel:</b> Elegant, entirely customizable and fully extensible admin panel.
-<b>Secure by default:</b> Reusable policies, CSRF, CORS, P3P, Xframe, XSS, and more.
-<b>Plugins Oriented:</b> Install auth system, content management, custom plugins, and more, in seconds.
-<b>Blazing Fast:</b> Built on top of Node.js, Strapi delivers amazing performances.
-<b>Front-end Agnostic:</b> Use any front-end frameworks (React, Vue, Angular, etc.), mobile apps or even IoT.
-<b>Powerful CLI:</b> Scaffold projects and APIs on the fly.
-<b>SQL & NoSQL databases:</b> Work with Mongo as a main database, also supports Postgres, MySQL, etc.
+<ul>
+<li><b>Modern Admin Panel:</b> Elegant, entirely customizable and fully extensible admin panel.</li>
+<li><b>Secure by default:</b> Reusable policies, CSRF, CORS, P3P, Xframe, XSS, and more.</li>
+<li><b>Plugins Oriented:</b> Install auth system, content management, custom plugins, and more, in seconds.</li>
+<li><b>Blazing Fast:</b> Built on top of Node.js, Strapi delivers amazing performances.</li>
+<li><b>Front-end Agnostic:</b> Use any front-end frameworks (React, Vue, Angular, etc.), mobile apps or even IoT.</li>
+<li><b>Powerful CLI:</b> Scaffold projects and APIs on the fly.</li>
+<li><b>SQL & NoSQL databases:</b> Work with Mongo as a main database, also supports Postgres, MySQL, etc.</li>
+</ul>
 
 <h2>Migration</h2>
 Follow our migration guides on the wiki to keep your projects up-to-date.
