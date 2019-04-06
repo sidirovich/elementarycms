@@ -32,12 +32,11 @@ For more information on the upcoming version, please take a look to our ROADMAP.
 <b>Community support</b>
 For general help using Strapi, please refer to the official Strapi documentation. For additional help, you can use one of this channel to ask question:
 <ul>
-StackOverflow
-Slack (highly recommended for faster support)
-GitHub (Bug reports and Feature requests only)
-Professional support
-Strapi Solutions, the company behind Strapi, provides a full range of solutions to get better results, faster. We're always looking for the next challenge: coaching, consulting, training, customization, etc.
+<li>VK.com</li>
+<li>Slack (highly recommended for faster support)</li>
+<li>GitHub (Bug reports and Feature requests only)</li>
 </ul>
+<b>Professional support</b>
 Drop us an email to see how we can help you.
 
 <h2>Features</h2>
