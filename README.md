@@ -29,15 +29,15 @@ db.json - файл содержит все данные контента landing
 <h2>Support</h2>
 For more information on the upcoming version, please take a look to our ROADMAP.
 
-Community support
+<b>Community support</b>
 For general help using Strapi, please refer to the official Strapi documentation. For additional help, you can use one of this channel to ask question:
-
+<ul>
 StackOverflow
 Slack (highly recommended for faster support)
 GitHub (Bug reports and Feature requests only)
 Professional support
 Strapi Solutions, the company behind Strapi, provides a full range of solutions to get better results, faster. We're always looking for the next challenge: coaching, consulting, training, customization, etc.
-
+</ul>
 Drop us an email to see how we can help you.
 
 <h2>Features</h2>
