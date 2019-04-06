@@ -1,4 +1,4 @@
-# Elementary CMS alpha
+# Elementary CMS
 
 ![Иллюстрация к проекту](https://github.com/sidirovich/personal-cabinet/blob/master/main-banner.png)
 
