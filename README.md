@@ -3,7 +3,7 @@
 <h2>Our Elementary CMS</h2>
 <p>Быстрое и удобное создание новых значений для вызова контента. Добавив поля через CMS вы сможете использовать их в шаблоне верстки. Мы начали создание данной системы для предоставления доступа контент-менеджерам к редактированию контента посадочных страниц. Очень часто созданные на базе WordPress лендинги не дают нужного уровня гибкости.</p>
 
-<b>Types of blocks</b>
+<h4>Types of blocks</h4>
 <ul>
 <li>String</li>
 <li>Multiple line text</li>
@@ -12,7 +12,7 @@
 <li>File Uploader</li>
 <li>Group of Fields</li>
 </ul>
-<b>Block parameters</b>
+<h4>Block parameters</h4>
 <ul>
 <li>Parent</li>
 <li>Type</li>
@@ -21,7 +21,7 @@
 <li>Description</li>
 </ul>
 
-Temporary database
+<h4>Temporary database</h4>
 db.json - all content with test landing page site.
 
 <h2>Support</h2>
