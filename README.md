@@ -1,6 +1,6 @@
 # Elementary CMS alpha
 
-![Иллюстрация к проекту](https://github.com/sidirovich/personal-cabinet/blob/master/Main%20page%20banner.png)
+![Иллюстрация к проекту](https://github.com/sidirovich/personal-cabinet/blob/master/main-banner.png)
 
 <h2>Our headless CMS</h2>
 API creation made simple, secure and fast.
