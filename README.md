@@ -1,9 +1,7 @@
 # Elementary-CMS
 
 <h2>О Elementary CMS</h2>
-<p>Быстрое и удобное создание новых значений для вызова контента. Добавив поля через CMS вы сможете использовать их в шаблоне верстки. Мы начали 
-создание данной системы для предоставления доступа контент-менеджерам к редактированию контента посадочных страниц. Очень часто
-созданные на базе WordPress лендинги не дают нужного уровня гибкости.</p>
+<p>Быстрое и удобное создание новых значений для вызова контента. Добавив поля через CMS вы сможете использовать их в шаблоне верстки. Мы начали создание данной системы для предоставления доступа контент-менеджерам к редактированию контента посадочных страниц. Очень часто созданные на базе WordPress лендинги не дают нужного уровня гибкости.</p>
 
 <b>Типы блоков</b>
 <ul>
@@ -30,7 +28,8 @@ db.json - файл содержит все данные контента landing
 For more information on the upcoming version, please take a look to our ROADMAP.
 
 <b>Community support</b>
-For general help using Strapi, please refer to the official Strapi documentation. For additional help, you can use one of this channel to ask question:
+For general help using Elementary CMS, please refer to the official Elementary CMS documentation. 
+For additional help, you can use one of this channel to ask question:
 <ul>
 <li>VK.com</li>
 <li>Slack (highly recommended for faster support)</li>
