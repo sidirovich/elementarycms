@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+    link(rel="stylesheet" href="/css/style.css")
+    link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous")
+  body
+    header
+      title Back office page
+    .container
+      .row(style="color: white;margin-top: 30px;")
+        .col-lg-6
+          nav.nav(style="float: left;")
+            p(style="padding: 10px;") Сайт: #{usersite}
+            p(style="padding: 10px;") Баланс: 0.00 RUB
+        .col-lg-6
+          nav.nav(style="float: right;")
+            p(style="padding: 10px;") #{usermail}
+            p(style="padding: 10px;") Выход
+
+      .row.main-content
+        .col-lg-2
+          .menu-point
+            p
+              a(href="/main-office") Главная
+          .menu-point
+            p
+              a(href="/payment-office") Пополнение
+          .menu-point
+            p Реферальная система
+          .menu-point
+            p
+              a(href="/support-office") Поддержка
+          .menu-point
+            p
+              a(href="/settings-office") Настройки
+        .col-lg-10.blockcenter
+          h4 Настройки
+          .col-md-6.mb-3
+            .col-md-12.mb-3
+              label(for="firstName") First name
+              input(type="text" class="form-control" id="firstName" placeholder="" value="" required="")
+            .col-md-12.mb-3
+              label(for="lastName") Last name
+              input(type="text" class="form-control" id="lastName" placeholder="" value="" required="")
+            .col-md-12.mb-3
+              label(for="username") Username
+              p Вы не можете изменять логин пользователя.
+            .col-md-12.mb-3
+              label(for="email") Email
+              input(type="email" class="form-control" id="email" placeholder="you@example.com")
+            .col-md-12.mb-3
+              label(for="address") Your site URL
+              input(type="text" class="form-control" id="urladdress" placeholder="http://your-site.com" required="")
+            hr.mb-4
+            button(class="btn btn-primary btn-lg btn-block" type="submit") Сохранить
+
+    script(src="javascript/cousult.js")
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous")

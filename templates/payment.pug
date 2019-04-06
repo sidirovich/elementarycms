@@ -1,0 +1,46 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+    link(rel="stylesheet" href="/css/style.css")
+    link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous")
+  body
+    header
+      title Back office page
+    .container
+      .row(style="color: white;margin-top: 30px;")
+        .col-lg-6
+          nav.nav(style="float: left;")
+            p(style="padding: 10px;") Сайт: #{usersite}
+            p(style="padding: 10px;") Баланс: 0.00 RUB
+        .col-lg-6
+          nav.nav(style="float: right;")
+            p(style="padding: 10px;") #{usermail}
+            p(style="padding: 10px;") Выход
+
+      .row.main-content
+        .col-lg-2
+          .menu-point
+            p
+              a(href="/main-office") Главная
+          .menu-point
+            p
+              a(href="/payment-office") Пополнение
+          .menu-point
+            p Реферальная система
+          .menu-point
+            p
+              a(href="/support-office") Поддержка
+          .menu-point
+            p
+              a(href="/settings-office") Настройки
+        .col-lg-10.blockcenter
+          .alert.alert-warning(role="alert") Платежи в данный момент не принимаются
+          h4 Пополнение баланса
+          iframe(src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&amp;targets=&amp;targets-hint=&amp;default-sum=&amp;button-text=11&amp;payment-type-choice=on&amp;mail=on&amp;hint=&amp;successURL=http%3A%2F%2Fjoint-studio.ru%2Fsuccessfully%2F&amp;quickpay=shop&amp;account=410011235647808" width="100%" height="215" frameborder="0" allowtransparency="true" scrolling="no")
+
+    script(src="javascript/cousult.js")
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous")

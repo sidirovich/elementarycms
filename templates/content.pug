@@ -1,0 +1,115 @@
+doctype html
+html
+  head
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
+    link(rel="stylesheet" href="/css/style.css")
+    link(href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous")
+  body
+    header
+      title Elementary CMS
+    .container
+      .row(style="color: white;margin-top: 30px;")
+        .col-lg-6
+          nav.nav(style="float: left;")
+            p(style="padding: 10px;") Сайт: #{usersite}
+            p(style="padding: 10px;") Баланс: 0.00 RUB
+        .col-lg-6
+          nav.nav(style="float: right;")
+            p(style="padding: 10px;") #{usermail}
+            p(style="padding: 10px;")
+              a(href="/logout") Выход
+
+      .row.main-content
+        .col-lg-2(style="padding: 15px;")
+          .menu-point
+            p
+              a(href="/dashboard") Dashboard
+          .menu-point
+            p
+              a(href="/leads") Leads
+          .menu-point
+            p
+              a(href="/content") Content
+          .menu-point
+            p
+              a(href="/integration") Integration
+          .menu-point
+            p Referrals
+          .menu-point
+            p
+              a(href="/support") Support
+          .menu-point
+            p
+              a(href="/settings") Settings
+        .col-lg-10.blockcenter
+          h2 Поля сайта доступные для редактирования
+          .row
+            .col-md-6.mb-3
+              h3 Текущие поля
+              form#labelform(method="post" style="margin: auto; width: 450px;")
+                //-
+                  .accordion#accordionExample
+                    .card
+                      .card-header#headingOne
+                        h2.mb-0
+                          span.labeldesc.labelcolortitle group
+                          button.btn.btn-link(type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne") collapsible example group fields
+                    .collapse.show#collapseOne(aria-labelledby="headingOne" data-parent="#accordionExample")
+                      .col-md-12.mb-3
+                        p
+                          span.labeldesc.labelcolortitle title
+                          span.labelcolortitle value.title
+                        input(type="text" class="form-control inputcount" id="value.ElementId" placeholder="" value="value.content" required="")
+                        p
+                          span.labeldesc id
+                          span.labelcolorcount value.ElementId
+                          span.labeldesc alias
+                          span.labelcolorcount value.alias
+                          span.labeldesc type
+                          span.labelcolorcount value.type
+                each value in values
+                  .col-md-12.mb-3
+                    p
+                      span.labeldesc.labelcolortitle title
+                      span.labelcolortitle= value.title
+                    input(type="text" class="form-control inputcount" id=value.ElementId placeholder=value.content required="")
+                    p
+                      span.labeldesc id
+                      span.labelcolorcount= value.ElementId
+                      span.labeldesc alias
+                      span.labelcolorcount= value.alias
+                      span.labeldesc type
+                      span.labelcolorcount= value.type
+                hr.mb-4
+                button(class="btn btn-primary btn-lg btn-block" type="submit") Сохранить
+            .col-md-6.mb-3
+              h3 Создание нового поля
+              form(action="/newvalue" method="post" style="margin: auto; width: 450px;")
+                .col-md-12
+                  label(for="type") Type
+                  select.form-control#exampleFormControlSelect1
+                    option string
+                    option color picker
+                    option file uploader
+                    option group fields
+                    option WYSIWYG field
+                  .invalid-feedback Your type is required.
+                .col-md-12
+                  label(for="type") Alias
+                  input(type="text" class="form-control" id="alias" name="alias" placeholder="write alias" required="")
+                  invalid-feedback Your type is required.
+                .col-md-12
+                  label(for="type") Title
+                  input(type="text" class="form-control" id="title" name="title" placeholder="write title" required="")
+                  invalid-feedback Your type is required.
+                .col-md-12
+                  label(for="type") Content
+                  input(type="text" class="form-control" id="content" name="content" placeholder="write content" required="")
+                hr.mb-4
+                button(class="btn btn-primary btn-lg btn-block" type="submit") Создать
+    script(src="javascript/cousult.js")
+    script(src="javascript/javascript.js")
+    script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous")
