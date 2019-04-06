@@ -27,15 +27,15 @@ db.json - файл содержит все данные контента landing
 <h2>Support</h2>
 For more information on the upcoming version, please take a look to our ROADMAP.
 
-<b>Community support</b>
-For general help using Elementary CMS, please refer to the official Elementary CMS documentation.<br> 
+<h4>Community support</h4>
+For general help using Elementary CMS, please refer to the official Elementary CMS documentation.</br> 
 For additional help, you can use one of this channel to ask question:
 <ul>
 <li>VK.com</li>
 <li>Slack (highly recommended for faster support)</li>
 <li>GitHub (Bug reports and Feature requests only)</li>
 </ul>
-<b>Professional support</b>
+<h4>Professional support</h4>
 Drop us an email to see how we can help you.
 
 <h2>Features</h2>
