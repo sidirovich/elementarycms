@@ -46,7 +46,7 @@ Drop us an email to see how we can help you.
 <li><b>Modern Admin Panel:</b> Elegant, entirely customizable and fully extensible admin panel.</li>
 <li><b>Secure by default:</b> Reusable policies, CSRF, CORS, P3P, Xframe, XSS, and more.</li>
 <li><b>Plugins Oriented:</b> Install auth system, content management, custom plugins, and more, in seconds.</li>
-<li><b>Blazing Fast:</b> Built on top of Node.js, Strapi delivers amazing performances.</li>
+<li><b>Blazing Fast:</b> Built on top of Node.js, delivers amazing performances.</li>
 <li><b>Front-end Agnostic:</b> Use any front-end frameworks (React, Vue, Angular, etc.), mobile apps or even IoT.</li>
 <li><b>Powerful CLI:</b> Scaffold projects and APIs on the fly.</li>
 <li><b>SQL & NoSQL databases:</b> Work with Mongo as a main database, also supports Postgres, MySQL, etc.</li>
