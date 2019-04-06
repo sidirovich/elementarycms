@@ -1,7 +1,8 @@
 # Elementary CMS alpha
 
 <h2>Our headless CMS</h2>
-<p>Быстрое и удобное создание новых значений для вызова контента. Добавив поля через CMS вы сможете использовать их в шаблоне верстки. Мы начали создание данной системы для предоставления доступа контент-менеджерам к редактированию контента посадочных страниц. Очень часто созданные на базе WordPress лендинги не дают нужного уровня гибкости.</p>
+API creation made simple, secure and fast.
+The most advanced open-source Content Management Framework (headless-CMS) to build powerful API with no effort.
 
 <h4>Types of blocks</h4>
 <ul>
