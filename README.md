@@ -1,9 +1,9 @@
 # Elementary-CMS
 
-<h2>О Elementary CMS</h2>
+<h2>Our Elementary CMS</h2>
 <p>Быстрое и удобное создание новых значений для вызова контента. Добавив поля через CMS вы сможете использовать их в шаблоне верстки. Мы начали создание данной системы для предоставления доступа контент-менеджерам к редактированию контента посадочных страниц. Очень часто созданные на базе WordPress лендинги не дают нужного уровня гибкости.</p>
 
-<b>Типы блоков</b>
+<b>Types of blocks</b>
 <ul>
 <li>String</li>
 <li>Multiple line text</li>
@@ -12,17 +12,17 @@
 <li>File Uploader</li>
 <li>Group of Fields</li>
 </ul>
-<b>Параметры блока</b>
+<b>Block parameters</b>
 <ul>
-<li>Parent - Родитель</li>
-<li>Type - Тип</li>
-<li>Alias - Алиас</li>
-<li>Title - Заголовок</li>
-<li>Description - Описание</li>
+<li>Parent</li>
+<li>Type</li>
+<li>Alias</li>
+<li>Title</li>
+<li>Description</li>
 </ul>
 
-База данных
-db.json - файл содержит все данные контента landing page
+Temporary database
+db.json - all content with test landing page site.
 
 <h2>Support</h2>
 For more information on the upcoming version, please take a look to our ROADMAP.
