@@ -28,7 +28,7 @@ db.json - файл содержит все данные контента landing
 For more information on the upcoming version, please take a look to our ROADMAP.
 
 <b>Community support</b>
-For general help using Elementary CMS, please refer to the official Elementary CMS documentation. 
+For general help using Elementary CMS, please refer to the official Elementary CMS documentation.<br> 
 For additional help, you can use one of this channel to ask question:
 <ul>
 <li>VK.com</li>
