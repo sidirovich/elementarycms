@@ -35,7 +35,7 @@ For general help using Elementary CMS, please refer to the official Elementary C
 For additional help, you can use one of this channel to ask question:
 <ul>
 <li>VK.com</li>
-<li>Slack (highly recommended for faster support)</li>
+<li>Telegram - https://t.me/elementarycms (highly recommended for faster support)</li>
 <li>GitHub (Bug reports and Feature requests only)</li>
 </ul>
 <h4>Professional support</h4>
