@@ -25,3 +25,13 @@
 
 База данных
 db.json - файл содержит все данные контента landing page
+
+
+<h2>Migration</h2>
+Follow our migration guides on the wiki to keep your projects up-to-date.
+
+<h2>Roadmap</h2>
+Check out our roadmap to get informed by the latest feature released and the upcoming ones. You can also give us insights and vote for a specific feature.
+
+<h2>Sponsors</h2>
+Become a sponsor and get your logo on our README on GitHub with a link to your site.
