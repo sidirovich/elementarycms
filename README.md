@@ -1,7 +1,5 @@
 # Elementary CMS
 
-![Иллюстрация к проекту](https://github.com/sidirovich/personal-cabinet/blob/master/main-banner.png)
-
 <h2>Our headless CMS</h2>
 API creation made simple, secure and fast.
 The most advanced open-source Content Management Framework (headless-CMS) to build powerful API with no effort.
