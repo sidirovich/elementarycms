@@ -1,0 +1,15 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.t-l{
+    text-align: left;
+}
+.t-c{
+    text-align: center;
+}
+.t-r{
+    text-align: right;
+}
+.btn-m-pointer{
+    margin: 3px;
+}
