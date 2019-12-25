@@ -17,7 +17,7 @@ export class RegistForm extends React.Component{
             <div className="container">
                 <div className="row justify-content-center mt-5">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-12">
-                        <h4>Registration</h4>
+                        <h4 className="mb-3">Registration</h4>
                         <form onSubmit={this.SubmitHandler}>
                             
                             <div className="form-group">

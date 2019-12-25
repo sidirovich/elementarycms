@@ -1,0 +1,25 @@
+{
+  "elements": [
+    {
+      "id": "tiPvIxF8",
+      "name": "label7",
+      "parent": "0",
+      "alias": "label7",
+      "type": "text"
+    },
+    {
+      "id": "Cj-BwSxh",
+      "name": "label1",
+      "parent": "label1",
+      "alias": "label1",
+      "type": "text"
+    },
+    {
+      "id": "bgz4241i",
+      "name": "popka",
+      "parent": "popochka",
+      "alias": "popec",
+      "type": "popasik"
+    }
+  ]
+}

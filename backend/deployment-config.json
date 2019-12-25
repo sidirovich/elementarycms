@@ -1,0 +1,9 @@
+{
+    "type": "sftp",
+    "host": "188.225.11.14",
+    "username": "root",
+    "password": "tNWKB3Cr",
+    "port": 22,
+    "remotePath": "/root/back-office-midellware",
+    "uploadOnSave": false
+}

@@ -1,6 +1,9 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
+p{
+    margin-bottom: 0px !important;
+}
 .t-l{
     text-align: left;
 }
@@ -12,4 +15,29 @@ body{
 }
 .btn-m-pointer{
     margin: 3px;
+}
+.link{
+    cursor: pointer;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.backgound-popup{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.content-popup{
+    margin: 80px auto 0px auto;
+    width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px #0000001c;
 }
